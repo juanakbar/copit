@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    transition: .4s;
+}
+html, body, #main-body {
+    position: relative;
+    overflow-x: hidden;
+  }
+
+.darkmode {
+    background-color: #343A40;
+}
+
+.darkmode * {
+    color: white;
+}
+
+/* NAVBAR START */
+
+nav.navbar {
+    background-color: rgba(245, 245, 245, 0.445);
+}
+nav.navbar .container-fluid a.navbar-brand, nav.navbar .container-fluid .collapse ul li a {
+    /* background-color: rgba(255, 255, 255, 0.452); */
+    color: black;
+}
+/* nav.navbar .container-fluid a.navbar-brand img {
+    width: 5%;
+} */
+.darkmode nav.navbar {
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.darkmode nav.navbar .container-fluid a.navbar-brand, .darkmode nav.navbar .container-fluid .collapse ul li a {
+    /* background-color: rgba(0, 0, 0, 0.178); */
+    color: white;
+}
+nav.navbar .container-fluid .collapse ul h2 {
+    font-weight: 250;
+}
+.darkmode nav.navbar .container-fluid .collapse ul h2 {
+    color: white;
+}
+@media (max-width: 991.98px) { 
+    /* nav.navbar .container {
+        justify-content: space-between;
+    } */
+    /* nav.navbar .container a.navbar-brand {
+        justify-content: left;
+    } */
+    /* nav.navbar .container a.navbar-brand img {
+        width: 10%;
+        height: 10%;
+    } */
+    nav.navbar .container-fluid .collapse ul h2 {
+      display: none;
+    }
+    .darkmode nav.navbar .container-fluid .collapse ul hr {
+      color: white;
+    }
+    nav.navbar {
+      background-color: rgb(255, 255, 255);
+    } 
+    .darkmode nav.navbar {
+      background-color: rgb(22, 22, 22);
+    }
+    nav.navbar .container button.navbar-toggler {
+        justify-content: right; 
+    }
+    nav.navbar .container-fluid button.navbar-toggler i.bi {
+      width: max-content;
+    }
+    .darkmode nav.navbar .container-fluid button.navbar-toggler i.bi {
+      color: white;
+      /* justify-content: right; */
+    }   
+}
+/* NAVBAR END */
+
+.container.container-body {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+.container.container-body .bg-corona img  {
+    position: absolute;
+    z-index: -1;
+    top: auto;
+    bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .5;
+}
+[data-svg="bg-main"] {
+    animation: bg-main linear 2s infinite;
+}
+@keyframes bg-main {
+    0% {
+      transform: translateY(0)
+    }
+    50% {
+      transform: translateY(0.6rem);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+.container.container-body section header .carousel {
+    width: 50%;
+    height: 100%;
+    float: left;
+    /* justify-content: left; */
+    margin: 1%;
+}
+.container.container-body section header .carousel .carousel-inner {
+    border-radius: 5%;
+}
+.container.container-body section header .row .col-lg .card {
+    text-align: center;
+    border: none;
+    box-shadow: 6px 9px 11px #00000013;
+    padding: 20px;
+    /* float: right; */
+    max-width: 100%;
+    min-height: 15vh;
+}
+.container.container-body section header .row .col-lg .card:hover {
+    padding: 15px 40px 35px 15px;
+}
+.container.container-body section header .row .col-lg .card h6 {
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.darkmode .container.container-body section header .row .col-lg .card {
+    background-color: #23272B;
+}
+.container.container-body .data-covid {
+    margin-top: 25vh;
+}
+.container.container-body .data-covid .title {
+    text-align: center;
+}
+
+.container.container-body .data-covid .row .col-lg .card {
+    text-align: center;
+    border: none;
+    box-shadow: 6px 9px 11px #00000013;
+    padding: 20px;
+}
+.container.container-body .data-covid .row .col-lg .card:hover {
+    padding: 15px 40px 35px 15px;
+}
+.container.container-body section.data-covid .row .col-lg .card a {
+    text-decoration: none;
+    color: black;
+}
+.darkmode .container.container-body section.data-covid .row .col-lg .card a {
+    text-decoration: none;
+    color: white;
+}
+.darkmode .container.container-body .data-covid .row .col-lg .card {
+    background-color: #23272B;
+}
+
+@media (max-width: 991.98px) {
+    .container.container-body section header .carousel {
+        width: 100%;
+        height: 100%;        
+        /* float: left; */
+        margin-bottom: 5vh;
+    }
+    .container.container-body  .data-covid .row .col-lg table.table thead tr th, .container.container-body  .data-covid .row .col-lg table.table tbody tr td {
+        font-size: small;
+    }
+    .container.container-body .data-covid .row .col-lg .card {
+        margin-top: 5vh;
+    }
+}
+
+/* PENGERTIAN START */
+.container.container-body section .pengertian img {
+    width: 50%;
+    float: right;
+}
+.container.container-body section .pengertian .desc h4 {
+    color: #F79F24;
+}
+.darkmode .container.container-body section .pengertian .desc h4 {
+    color: yellow;
+}
+/* PENGERTIAN END */
+
+/* BERITA START */
+.container.container-body section .berita {
+    margin-top: 5vh;
+}
+.container.container-body section .berita .title {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.container.container-body section .berita .row .col-lg .card {
+    /* width: 35%; */
+    padding: 20px;
+    /* margin: 10px; */
+    border: none;
+    box-shadow: 6px 9px 11px #00000013;
+    text-align: center;
+}
+.container.container-body section .berita .row .col-lg .card:hover {
+    padding: 15px 40px 35px 15px;
+}
+.darkmode .container.container-body section .berita .row .col-lg .card {
+    background-color: #23272B;
+}
+.container.container-body section .berita .row .col-lg .card p {
+    font-size: small;
+    color: #F79F24;
+}
+.darkmode .container.container-body section .berita .row .col-lg .card p {
+    font-size: small;
+    color: yellow;
+}
+.container.container-body section .berita .row .col-lg .card a {
+    text-decoration: none;
+    color: black;
+}
+.darkmode .container.container-body section .berita .row .col-lg .card a {
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 991.98px) {
+    .container.container-body section .berita .row .col-lg .card {
+        margin-top: 5vh;
+    }
+}
+/* BERITA END */
+
+/* CONTACT PAGE END ~ CONTACT PAGE END */
+#vaksin {
+    margin-top: 15vh;
+}
+.daftar-vaksin {
+    /* margin-top: 10vh; */
+    overflow-x: hidden;
+}
+.daftar-vaksin img {
+    position: absolute;
+    z-index: -1;
+    opacity: .5;
+    justify-content: center;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+.darkmode .daftar-vaksin, .daftar-vaksin .daftar input {
+    color: #FFF;
+}
+.daftar-vaksin .daftar h1 {
+    text-align: center;
+}
+.daftar-vaksin .daftar input {
+    border: none;
+    background-color: rgba(255, 0, 0, 0);
+    color: black;
+}
+.darkmode .daftar-vaksin .daftar input {
+    color: white;
+}
+.daftar-vaksin .daftar input:focus {
+    outline-width: 0;
+}
+.daftar-vaksin .daftar input, .daftar-vaksin .daftar hr {
+    width: 100%;
+    margin: 0;
+}
+.daftar-vaksin .daftar hr {
+    border: 1px;
+    color: #1D1E1E;
+    opacity: 1;
+}
+.daftar-vaksin .daftar button.btn {
+    background-color: #23272B;
+    padding: 2vh;
+}
+  
+.daftar-vaksin .row .col-lg .card {
+    text-align: center;
+    color: black;
+}
+.daftar-vaksin .row .col-lg .card {
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 3px 6px #00000016;
+    border: none;
+}
+.darkmode .daftar-vaksin .row .col-lg .card {
+    background-color: #23272B;
+    padding: 5px;
+    color: white;
+}
+.daftar-vaksin .row .col-lg .card a {
+    text-decoration: none;
+    color: black;
+}
+.darkmode .daftar-vaksin .row .col-lg .card a {
+    color: white;
+}
+.daftar-vaksin .row .col-lg .card p.tanggal {
+    font-size: small;
+}
+  
+.daftar-vaksin .kontak p {
+    transition: 0.5s;
+}
+.daftar-vaksin .kontak p a {
+    color: black;
+    text-decoration: none;
+}
+.darkmode .daftar-vaksin .kontak p a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 991.98px) {
+    #vaksin {
+        margin-top: 15vh;
+    }
+}
+  
+@media (max-width: 767.98px) {
+    .float-start {
+      float: none;
+    }
+    .col-7 {
+      width: 100%;
+    }
+    .kontak {
+      display: none;
+    }
+}
+  /* CONTACT PAGE END ~ CONTACT PAGE END */
+
+footer {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    /* position: fixed; */
+    bottom: 0;
+}
+.darkmode footer {
+    background-color: rgb(22, 22, 22);
+}
+footer h6 a {
+    color: black;
+    text-decoration: none;
+}
+footer h6 a:hover {
+    color: rgba(0, 0, 0, 0.685);
+}
+
