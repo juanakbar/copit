@@ -87,9 +87,6 @@ Hingga Minggu, total 215,6 juta dosis vaksin telah diberikan kepada masyarakat. 
             </section>
             <br>
             <br>
-            <br>
-            <br>
-            <br>
             <section class="data-covid">
                 <h1 class="title">Coronavirus Global & Indonesia Live Data</h1>
                 <br>
@@ -189,20 +186,19 @@ Hingga Minggu, total 215,6 juta dosis vaksin telah diberikan kepada masyarakat. 
                                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                        <img src="img/no-image.png" class="d-block w-100" alt="...">
+                                        <img src="img/b1.webp" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item">
-                                        <img src="img/no-image.png" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                        <img src="img/no-image.png" class="d-block w-100" alt="...">
+                                        <img src="img/b1_2.webp" class="d-block w-100" alt="...">
                                         </div>
                                     </div>
                                 </div>
                                 <br>
-                                <h5 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, soluta.</h5>
-                                <p>Kamis, 28 Oktober 2021</p>
-                                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, tenetur accusantium debitis sequi cum et sint, dolorum voluptates assumenda, ullam cumque quas ipsum quam doloremque asperiores neque eum dolor recusandae.</h6>
+                                <h5 class="card-title">VAKSINASI KEDUA POLITEKNIK TEDC</h5>
+                                <p>Selasa, 12 Oktober 2021</p>
+                                <h6>Hallo, Warga TEDC!!
+
+Teruntuk warga TEDC yang telah melakukan vaksinasi dosis pertama, kami dari BEM Politeknik TEDC mengajak seluruh warga Politeknik TEDC untuk melakukan vaksinasi dosis kedua untuk mencegah dan menghentikan penyebaran Covid-19.</h6>
                             </div>
                         </div>
                         <div class="col-lg">
@@ -210,20 +206,24 @@ Hingga Minggu, total 215,6 juta dosis vaksin telah diberikan kepada masyarakat. 
                                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                        <img src="img/no-image.png" class="d-block w-100" alt="...">
+                                        <img src="img/b2.jpg" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item">
-                                        <img src="img/no-image.png" class="d-block w-100" alt="...">
+                                        <img src="img/b2_1.jpg" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item">
-                                        <img src="img/no-image.png" class="d-block w-100" alt="...">
+                                        <img src="img/b2_3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                        <img src="img/b2_4.jpg" class="d-block w-100" alt="...">
                                         </div>
                                     </div>
                                 </div>
                                 <br>
-                                <h5 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, soluta.</h5>
-                                <p>Kamis, 28 Oktober 2021</p>
-                                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, tenetur accusantium debitis sequi cum et sint, dolorum voluptates assumenda, ullam cumque quas ipsum quam doloremque asperiores neque eum dolor recusandae.</h6>
+                                <h5 class="card-title">DOKUMENTASI VAKSINASI PERTAMA POLITEKNIK TEDC.</h5>
+                                <p>Selasa, 14 September 2021.</p>
+                                <h6>Assalamu'alaikum Warahmatullahi Wabarakatuh.<br>
+Alhamdulillah telah terlaksana kegiatan Vaksinasi dosis pertama Politeknik TEDC Bandung. Bersama ini kami ucapkan terima kasih yang sebesar-besarnya kepada seluruh rekan-rekan yang sudah hadir menyukseskan kegiatan ini, yang diselenggarakan secara offline di Politeknik TEDC Bandung pada Selasa, 14 September 2021.</h6>
                             </div>
                         </div>
                         <div class="col-lg">
@@ -231,20 +231,18 @@ Hingga Minggu, total 215,6 juta dosis vaksin telah diberikan kepada masyarakat. 
                                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                        <img src="img/no-image.png" class="d-block w-100" alt="...">
+                                        <img src="img/b3.jpg" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item">
-                                        <img src="img/no-image.png" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                        <img src="img/no-image.png" class="d-block w-100" alt="...">
+                                        <img src="img/b3_1.jpg" class="d-block w-100" alt="...">
                                         </div>
                                     </div>
                                 </div>
                                 <br>
-                                <h5 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, soluta.</h5>
-                                <p>Kamis, 28 Oktober 2021</p>
-                                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, tenetur accusantium debitis sequi cum et sint, dolorum voluptates assumenda, ullam cumque quas ipsum quam doloremque asperiores neque eum dolor recusandae.</h6>
+                                <h5 class="card-title">Vaksinasi Pertama Politeknik TEDC.</h5>
+                                <p>Selasa dan Kamis, 14 & 16 September 2021</p>
+                                <h6>Hallo, Warga TEDC!!<br>
+Pandemi Covid-19 telah mebatasi seluruh aspek, termasuk di dalamnya Kegiatan Belajar Mengajar. Hingga saat ini pun kegiatan pembelajaran masih sebatas temu daring. Maka dari itu untuk mencegah dan menghentikan penyebaran Covid-19.</h6>
                             </div>
                         </div>
                     </div>

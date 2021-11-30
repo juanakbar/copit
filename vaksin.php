@@ -40,8 +40,7 @@ include_once('config.php')
             $sql = mysqli_query($conn, "INSERT INTO vaksin(email, nama, nohp, nik) VALUES('$email', '$nama', '$nohp', '$nik')") or die(mysqli_error($conn));
 
             if($sql){
-                echo '<script>alert("Berhasil menambahkan data.");
-                document.location="index.php";</script>';
+                echo '<div class="alert alert-warning">Data Sudah Terdaftar.</div>';
             }else{
                 echo '<div class="alert alert-warning">Gagal melakukan proses tambah data.</div>';
             }
@@ -52,7 +51,7 @@ include_once('config.php')
 ?>
                 <br>
                 <br>
-                <form class="daftar" action="?page=index.php" method="post">
+                <form class="daftar" action="?page=vaksin.php" method="post">
                     <h3>Email Anda</h3>
                     <input type="email" name="email" placeholder="Masukkan Email Anda Disini...." required>
                     <hr>
