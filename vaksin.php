@@ -1,5 +1,41 @@
 <?php require_once 'corona.php'; 
-include_once('config.php')
+include_once('config.php');
+
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+require 'vendor/autoload.php';
+
+function sendemail_verify($nama,$email)
+{
+    $mail = new PHPMailer(true);
+    
+    $mail->isSMTP();                                            //Send using SMTP
+    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+    $mail->Username   = 'mdummy998@gmail.com';                     //SMTP username
+    $mail->Password   = 'juanakbar1';                               //SMTP password
+    $mail->SMTPSecure = "tls";            //Enable implicit TLS encryption
+    $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+
+    //Recipients
+    $mail->setFrom('no-reply.mdummy998@gmail.com');
+    $mail->addAddress($email);               //Name is optional
+
+    //Content
+    $mail->isHTML(true);                                  //Set email format to HTML
+    $mail->Subject = 'Email Verification';
+    //$my_path = "img/thanks.png";
+    //$email_template=($my_path);
+    //$mail->addAttachment($my_path);         //Add attachments
+    $mail->AddEmbeddedImage("img/thanks.png", "my-attach", "rocks.png");
+    $mail->Body = '<img alt="PHPMailer" src="cid:my-attach" style="width: 350px; height: 500px ;">';
+    //$mail->Body    = $email_template;
+    $mail->send();
+} 
+
 ?>
 
 <!doctype html>
@@ -40,6 +76,7 @@ include_once('config.php')
             $sql = mysqli_query($conn, "INSERT INTO vaksin(email, nama, nohp, nik) VALUES('$email', '$nama', '$nohp', '$nik')") or die(mysqli_error($conn));
 
             if($sql){
+                sendemail_verify("$nama","$email");
                 echo '<div class="alert alert-warning">Data Sudah Terdaftar.</div>';
             }else{
                 echo '<div class="alert alert-warning">Gagal melakukan proses tambah data.</div>';
@@ -80,7 +117,6 @@ include_once('config.php')
         </section>
 
     </div>
-
     <?php require_once 'layout/footer.php' ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>

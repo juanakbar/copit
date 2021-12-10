@@ -14,16 +14,7 @@
             <div class="collapse navbar-collapse  me-auto float-right" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="data-covid.php">Data Covid-19</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="vaksin.php">Daftar Vaksin</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Login/login.php">Data Vaksin</a>
+                        <a class="nav-link" href="login/logout.php">Logout</a>
                     </li>
                     <h2>|</h2>
                     <hr>

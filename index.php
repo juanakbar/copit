@@ -17,14 +17,14 @@
     <title>Cegah Covid-19</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-28X911PMPZ"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VRM8JXPVZK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'G-28X911PMPZ');
-    </script>
+  gtag('config', 'G-VRM8JXPVZK');
+</script>
   </head>
   <body>
     <?php require_once 'layout/navbar2.php'; ?>
